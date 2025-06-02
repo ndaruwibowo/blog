@@ -1,3 +1,4 @@
+<!-- This content will not appear in the rendered Markdown -->
 <style>
         /* CSS Variables for Theming */
         :root {
@@ -195,6 +196,7 @@
         }
 
     </style>
+<!-- This content will not appear in the rendered Markdown -->
 # My First Blog Post
 
 <p class="meta">Published on June 1, 2025 by Author Name</p>
