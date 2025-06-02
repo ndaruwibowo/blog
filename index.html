@@ -250,7 +250,11 @@
 
         <main>
             <zero-md src="https://ndaruwibowo.github.io/blog/md/first-test-post.md">
-                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.min.css" />
+                <style>
+                    :host { display: block; position: relative; contain: content; }
+                    :host([hidden]) { display: none; }
+                </style>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.min.css" />
             </zero-md>
 
             <article>
